@@ -1,0 +1,9 @@
+.red {
+    width: 100px;
+    height: 100px;
+    padding: 20px 0px;
+    margin: 20px;
+    border: 2px dashed red;
+    background: yellow;
+}
+
