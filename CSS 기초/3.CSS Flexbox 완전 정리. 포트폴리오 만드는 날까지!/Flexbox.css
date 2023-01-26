@@ -1,10 +1,18 @@
 .container {
     background: beige;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*flex-flow: column nowrap;*/
+    justify-content: space-between; /* main axis */
+    align-items: center; /*cross axis*/
 }
 
 .item {
-    
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
 }
 
 .item1 {
@@ -27,4 +35,13 @@
 }
 .item7 {
     background: #e6ee9c;
+}
+.item8 {
+    background: #ff6e40;
+}
+.item9 {
+    background: #d500f9;
+}
+.item10 {
+    background: #37474f;
 }
